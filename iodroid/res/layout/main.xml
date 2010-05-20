@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:id="@+id/root_layout"
+    >
+
+  <TextView android:id="@+id/status"
+            android:text="IODroid"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:textStyle="bold"
+            android:layout_gravity="center_vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:padding="3sp"
+            />
+
+  <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal"
+                >
+
+    <Button android:id="@+id/read_button"
+            android:text="Read"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15sp"
+            android:textSize="30sp"
+            />
+
+    <Button android:id="@+id/write_button"
+            android:text="Write"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15sp"
+            android:textSize="30sp"
+            />
+    </LinearLayout>
+  
+  <TextView android:text="Options"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:padding="3sp"
+            />
+
+  <CheckBox android:id="@+id/background_reads"
+            android:text="Background reads"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:padding="3sp"
+            />
+
+  <CheckBox android:id="@+id/background_writes"
+            android:text="Background writes"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:padding="3sp"
+            />
+
+  <CheckBox android:id="@+id/background_nice"
+            android:text="Background low-priority"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:padding="3sp"
+            />
+
+  <TextView android:id="@+id/bg_status"
+            android:text="Background status: (not running)"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:padding="3sp"
+            />
+
+</LinearLayout>
+

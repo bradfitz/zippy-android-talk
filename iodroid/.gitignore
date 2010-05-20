@@ -1,0 +1,8 @@
+*~
+*.apk
+bin
+gen
+local.properties
+src/com/google/iodroid/IIODroidService.java
+src/com/google/iodroid/IServiceCallback.java
+src/com/google/iodroid/R.java
