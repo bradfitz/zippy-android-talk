@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Zippy Android Google I/O</string>
+
+    <!-- Dummy Resource to get a unique resource ID for View.setTag() -->
+    <string name="tag_async_list_pos" />
+</resources>
