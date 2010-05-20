@@ -1,0 +1,8 @@
+This is the code used during my talk at Google I/O 2010.
+
+Talk summary:
+http://code.google.com/events/io/2010/sessions/writing-zippy-android-apps.html
+
+Note that this code features a lot of bad practices as well as best
+practices, so please don't blindly copy code you see here... it's
+likely (intentionally) wrong!  :)
